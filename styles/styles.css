@@ -48,3 +48,12 @@ body {
 .button-navigation {
   width: 160px;
 }
+
+.hero {
+  background-color: #83B3D333;
+  background-image: url("../images/bg-hero.jpg");
+  background-size: 100% auto;
+  height: 485px;
+  background-repeat: no-repeat;
+
+}
