@@ -52,8 +52,8 @@
     <main class="main-catalog">
       <h1 class="visually-hidden">Поиск гостиниц в Седоне</h1>
       <section class="filter">
-        <img class="bg-filter" src="images/bg-filter.jpg" width="1200" height="412"
-          alt="Фон для блока поиска гостиниц.">
+        <!-- <img class="bg-filter" src="images/bg-filter.jpg" width="1200" height="412"
+        alt="Фон для блока поиска гостиниц."> -->
         <h1 class="catalog-title">Гостиницы Седоны</h1>
         <nav class="catalog-navigation">
           <ul class="breadcrumbs">
@@ -61,7 +61,7 @@
               <a class="breadcrumbs-link" href="index.html"><span class="visually-hidden">Главная</span></a>
             </li>
             <li class="breadcrumbs-item">
-              <a class="breadcrumbs-link">Гостиницы</a>
+              <a class="breadcrumbs-link" href="#">Гостиницы</a>
             </li>
           </ul>
         </nav>
@@ -92,7 +92,7 @@
           </fieldset>
 
           <fieldset class="catalog-filter-group">
-            <legend class="catalog-filter-title">Тип жилья:</legend>
+            <legend class="catalog-filter-title">Тип Жилья:</legend>
             <ul class="catalog-filter-list">
               <li class="catalog-filter-item">
                 <label class="control">
@@ -116,7 +116,7 @@
           </fieldset>
 
           <fieldset class="catalog-filter-grup">
-            <legend class="catalog-filter-title">Стоимость, P:</legend>
+            <legend class="catalog-filter-title">Стоимость, ₽:</legend>
             от
             <input class="conteol-input-min" type="number" name="min-price" value="0">
             до
@@ -124,8 +124,8 @@
             <input class="conteol-input" type="range" name="price-range">
           </fieldset>
 
-          <button class="button" type="submit">ПРИМЕНИТЬ</button>
-          <button class="button">СБРОСИТЬ</button>
+          <button class="button button-filter" type="submit">ПРИМЕНИТЬ</button>
+          <button class="button button-filter button-filter-reset">СБРОСИТЬ</button>
         </form>
       </section>
 
