@@ -247,3 +247,17 @@ color:#000000
   line-height: 20px;
   text-transform: uppercase;
 }
+
+.button-catalog-more,
+.button-catalog-to-favorites,
+.button-catalog-in-favorites {
+  width: 140px;
+}
+
+.button-catalog-to-favorites {
+  background-color: #82B3D3;
+}
+
+.button-catalog-in-favorites {
+  background-color: #7DB54F;
+}
