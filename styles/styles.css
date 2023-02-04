@@ -103,7 +103,7 @@ body {
 }
 
 .bg-color-blue {
-  background-color:#82B3D3;
+  background-color: #82B3D3;
 }
 
 .bg-color-light-blue {
@@ -112,7 +112,7 @@ body {
 
 
 .bg-color-grey-blue {
-  background-color:rgba(131, 179, 211, 0.2);
+  background-color: rgba(131, 179, 211, 0.2);
 }
 
 .button-search {
@@ -150,7 +150,7 @@ body {
   text-align: center;
 }
 
-.contacts-phone{
+.contacts-phone {
   text-decoration: none;
   font-style: normal;
   color: #000000;
@@ -212,8 +212,8 @@ body {
 }
 
 .button-filter {
-background-color: #82B3D3;
-width: 191px;
+  background-color: #82B3D3;
+  width: 191px;
 }
 
 .button-filter-reset {
@@ -236,10 +236,10 @@ width: 191px;
 }
 
 .hotel-card-title {
-font-size: 24px;
-line-height: 28px;
-font-weight: 700;
-color:#000000
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #000000
 }
 
 .hotel-card-rate {
