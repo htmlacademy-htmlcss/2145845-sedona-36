@@ -38,6 +38,10 @@ body {
   text-transform: uppercase;
 }
 
+.header {
+  color: #000000;
+}
+
 .navigation-list .navigation-link {
   font-size: 20px;
   font-weight: 700;
@@ -74,12 +78,7 @@ body {
 .service-title {
   width: 700;
   text-transform: uppercase;
-}
-
-.text,
-.advantages-description,
-.service-description {
-  color: #333333;
+  color: #000000;
 }
 
 .title {
