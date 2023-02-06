@@ -130,7 +130,7 @@ body {
 
 .subscribe-field {
   width: 452px;
-  height: 52px;
+  min-height: 52px;
   border-radius: 4px;
   border: 0;
   background-color: #F2F2F2;
