@@ -20,7 +20,13 @@ body {
   line-height: 21px;
   font-weight: 400;
   color: #333333;
+  background-color: #F2F2F2;
+}
+
+.site-container {
   background-color: #ffffff;
+  margin: 0 auto;
+  width: 1200px;
 }
 
 .button {
