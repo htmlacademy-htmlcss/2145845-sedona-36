@@ -63,6 +63,28 @@ body {
   color: #000000;
 }
 
+.navigation {
+  display: flex;
+  margin: 0 auto;
+}
+
+.header-logo {
+  display: block;
+  width: 140px;
+  margin-left: 70px;
+}
+
+.navigation-list {
+  min-width: 339px;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-user {
+  min-width: 268px;
+  margin-left: auto;
+}
+
 .navigation-list .navigation-link {
   font-size: 20px;
   font-weight: 700;
