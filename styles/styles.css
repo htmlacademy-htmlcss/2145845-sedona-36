@@ -82,6 +82,8 @@ body {
 
 .navigation-user {
   min-width: 268px;
+  margin: 0;
+  padding: 0;
   margin-left: auto;
 }
 
@@ -105,7 +107,12 @@ body {
   background-size: 100% auto;
   height: 485px;
   background-repeat: no-repeat;
+}
 
+.welcome-logo {
+  display: block;
+  margin: auto;
+  padding-top: 51px;
 }
 
 .title,
@@ -115,7 +122,6 @@ body {
 .advantages-description,
 .service-description {
   text-align: center;
-
 }
 
 .title,
