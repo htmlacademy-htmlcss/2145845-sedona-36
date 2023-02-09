@@ -57,6 +57,8 @@ body {
   text-transform: uppercase;
 }
 
+/* header */
+
 .header {
   color: #000000;
 }
@@ -72,6 +74,8 @@ body {
 .button-navigation {
   min-width: 160px;
 }
+
+/* index - main */
 
 .hero {
   background-color: #83B3D333;
@@ -132,12 +136,16 @@ body {
   background-color: rgba(131, 179, 211, 0.2);
 }
 
+/* index - search */
+
 .button-search {
   min-height: 52px;
   min-width: 376px;
   font-size: 20px;
   line-height: 36px;
 }
+
+/* index - subscribe */
 
 .subscribe-index {
   background-color: #82B3D3;
@@ -162,6 +170,8 @@ body {
   line-height: 36px;
   background-color: #82B3D3;
 }
+
+/* footer */
 
 .footer-contacts {
   text-align: center;
@@ -278,6 +288,8 @@ body {
 .button-catalog-in-favorites {
   background-color: #7DB54F;
 }
+
+/* pagination */
 
 .pagination-link {
   text-decoration: none;
