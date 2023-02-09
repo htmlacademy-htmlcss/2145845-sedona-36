@@ -99,7 +99,7 @@ body {
   min-width: 160px;
 }
 
-/* index - main */
+/* index - hero */
 
 .hero {
   background-color: #83B3D333;
@@ -114,6 +114,8 @@ body {
   margin: auto;
   padding-top: 51px;
 }
+
+/* index - title, text */
 
 .title,
 .advantages-title,
@@ -152,6 +154,8 @@ body {
   color: #FFFFFF;
 }
 
+/* index - advantages */
+
 .advantages-item {
   background-color: #82B3D3;
 }
@@ -162,6 +166,30 @@ body {
 
 .bg-color-grey-blue {
   background-color: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.advantages-item {
+  width: 400px;
+}
+
+/* index - service */
+
+.service-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-item {
+  width: 400px;
 }
 
 /* index - search */
