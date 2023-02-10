@@ -236,8 +236,21 @@ body {
 
 /* footer */
 
+.footer-container {
+  display: flex;
+  margin: 40px 70px 30px;
+  padding: 0;
+}
+
+.footer-social {
+  min-width: 142px;
+  margin: 0;
+  margin-right: auto;
+}
+
 .footer-contacts {
   text-align: center;
+  width: 720px;
 }
 
 .contacts-phone {
@@ -247,6 +260,11 @@ body {
   font-weight: 400;
   font-size: 40px;
   line-height: 40px;
+}
+
+.footer-html-academy {
+  width: 115px;
+  margin-left: auto;
 }
 
 /* catalog - filter */
