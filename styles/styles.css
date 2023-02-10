@@ -372,16 +372,32 @@ body {
   background-color: transparent;
 }
 
-/* catalog - catalog */
+/* catalog - sorting */
+
+.sorting-wrapper {
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+  width: 1060px;
+}
 
 .select-control {
   min-width: 292px;
-  min-height: 49px;
+  height: 49px;
   border-radius: 4px;
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
+  margin-left: auto;
 }
+
+.view {
+  width: 160px;
+  margin-left: 70px;
+}
+
+/* catalog - hotel-card */
+
 
 .hotel-card-link {
   text-decoration: none;
