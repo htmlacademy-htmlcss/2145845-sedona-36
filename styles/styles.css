@@ -398,6 +398,18 @@ body {
 
 /* catalog - hotel-card */
 
+.hotel-card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1060px;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.hotel-card-item {
+  width: 340px;
+}
 
 .hotel-card-link {
   text-decoration: none;
@@ -431,6 +443,22 @@ body {
 }
 
 /* pagination */
+
+.pagination {
+  width: 1060px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.pagination-link {
+  display: block;
+}
+
+.pagination-wrapper {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+}
 
 .pagination-link {
   text-decoration: none;
