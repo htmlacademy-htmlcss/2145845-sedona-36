@@ -239,7 +239,6 @@ body {
   margin-bottom: 62px;
 }
 
-
 .real-town,
 .devil-bridge {
   display: block;
@@ -254,6 +253,19 @@ body {
 
 /* index - service */
 
+.service-main-tittle {
+  width: 505px;
+  margin: auto;
+  padding-top: 64px;
+  padding-bottom: 20px;
+}
+
+.service-main-text {
+  width: 490px;
+  margin: auto;
+  padding-bottom: 64px;
+}
+
 .service-list {
   margin: 0;
   padding: 0;
@@ -262,7 +274,24 @@ body {
 }
 
 .service-item {
+  display: flex;
+  flex-direction: column;
   width: 400px;
+  min-height: 400px;
+  margin: 0;
+  padding: 0;
+}
+
+.service-title {
+  margin: auto;
+  width: 230px;
+  margin-bottom: 30px;
+}
+
+.service-description {
+  margin: auto;
+  margin-top: 0;
+  width: 230px;
 }
 
 /* index - search */
