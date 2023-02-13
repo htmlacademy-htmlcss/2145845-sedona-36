@@ -368,19 +368,25 @@ body {
 
 .footer-container {
   display: flex;
-  margin: 40px 70px 30px;
+  margin: 45px 70px 35px;
   padding: 0;
 }
 
-.footer-social {
-  min-width: 142px;
+.footer-social-list {
+  display: flex;
+  flex-wrap: wrap;
   margin: 0;
-  margin-right: auto;
+  padding: 0;
+  list-style-type: none;
+  min-height: 40px;
+}
+
+.footer-social-item {
+  min-width: 47px;
 }
 
 .footer-contacts {
-  text-align: center;
-  width: 720px;
+  margin: 0 auto;
 }
 
 .contacts-phone {
@@ -394,7 +400,6 @@ body {
 
 .footer-html-academy {
   width: 115px;
-  margin-left: auto;
 }
 
 /* catalog - filter */
