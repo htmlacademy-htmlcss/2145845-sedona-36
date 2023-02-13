@@ -329,6 +329,25 @@ body {
   background-repeat: no-repeat;
 }
 
+.subscribe-title {
+  width: 404px;
+  margin: auto;
+  padding-top: 96px;
+  padding-bottom: 20px;
+}
+
+.subscribe-text {
+  width: 475px;
+  margin: auto;
+  padding-bottom: 54px;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 104px;
+}
+
 .subscribe-field {
   min-width: 452px;
   min-height: 52px;
