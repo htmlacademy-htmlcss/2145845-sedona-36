@@ -296,11 +296,27 @@ body {
 
 /* index - search */
 
+.search-tittle {
+  width: 297px;
+  margin: auto;
+  padding-top: 96px;
+  padding-bottom: 20px;
+}
+
+.search-text {
+  width: 592px;
+  margin: auto;
+  padding-bottom: 54px;
+}
+
 .button-search {
+  display: block;
   min-height: 52px;
-  min-width: 376px;
+  width: 376px;
   font-size: 20px;
   line-height: 36px;
+  margin: auto;
+  margin-bottom: 96px;
 }
 
 /* index - subscribe */
