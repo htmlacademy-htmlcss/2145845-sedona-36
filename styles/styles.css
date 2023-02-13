@@ -597,23 +597,23 @@ body {
 
 /* pagination */
 
-.pagination {
+.pagination-wrapper {
   width: 1060px;
   padding: 0;
   margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.pagination {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
 }
 
 .pagination-link {
   display: block;
-}
-
-.pagination-wrapper {
-  display: flex;
-  width: 400px;
-  justify-content: space-between;
-}
-
-.pagination-link {
   text-decoration: none;
   color: #FFFFFF;
   min-height: 60px;
@@ -624,6 +624,7 @@ body {
   font-size: 20px;
   line-height: 36px;
   text-align: center;
+  margin-right: 8px;
 }
 
 .pagination-current {
