@@ -86,6 +86,7 @@ body {
   margin-left: 70px;
   margin-right: 28px;
   margin-bottom: -6px;
+  position: relative;
 }
 
 .navigation-list {
@@ -158,6 +159,8 @@ body {
 .advantages-description,
 .service-description {
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .title,
@@ -190,6 +193,19 @@ body {
 
 /* index - advantages */
 
+.advantages-main-tittle {
+  width: 620px;
+  margin: auto;
+  padding-top: 69px;
+  padding-bottom: 25px;
+}
+
+.advantages-main-text {
+  width: 651px;
+  margin: auto;
+  padding-bottom: 69px;
+}
+
 .bg-color-light-blue {
   background-color: rgba(131, 179, 211, 0.12);
 }
@@ -203,11 +219,26 @@ body {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+  list-style-type: none;
 }
 
 .advantages-item {
+  display: flex;
   width: 400px;
+  min-height: 400px;
 }
+
+.advantages-wrapper {
+  margin: auto;
+  width: 230px;
+}
+
+.advantages-title {
+  margin: auto;
+  width: 175px;
+  margin-bottom: 62px;
+}
+
 
 .real-town,
 .devil-bridge {
@@ -216,6 +247,7 @@ body {
 
 .advantages-item-real-town,
 .advantages-item-devil-bridge {
+  width: 1200px;
   display: flex;
   background-color: #82B3D3;
 }
