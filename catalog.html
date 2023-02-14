@@ -16,34 +16,34 @@
               alt="Логотип: Город Седона.">
           </a>
           <ul class="navigation-list">
-            <li class="navigation-item">
-              <a class="navigation-link" href="index.html">Главная</a>
+            <li class="navigation-list-item">
+              <a class="navigation-link-item" href="index.html">Главная</a>
             </li>
-            <li class="navigation-item">
-              <a class="navigation-link" href="#">О Седоне</a>
+            <li class="navigation-list-item">
+              <a class="navigation-link-item" href="#">О Седоне</a>
             </li>
-            <li class="navigation-item">
-              <a class="navigation-link navigation-link-current" href="#">Гостиницы</a>
+            <li class="navigation-list-item">
+              <a class="navigation-link-item navigation-link-current" href="#">Гостиницы</a>
             </li>
           </ul>
 
           <ul class="navigation-user">
-            <li class="navigation-item">
-              <a class="navigation-link" href="#">
+            <li class="navigation-user-item">
+              <a class="navigation-user-link" href="#">
                 <span class="visually-hidden">
                   Поиск
                 </span>
               </a>
             </li>
-            <li class="navigation-item">
-              <a class="navigation-link" href="#">
+            <li class="navigation-user-item">
+              <a class="navigation-user-link" href="#">
                 <span class="visually-hidden">
                   Избранное
                 </span>
               </a>
             </li>
-            <li class="navigation-item">
-              <button class="button button-navigation" type="button">Хочу сюда!</button>
+            <li class="navigation-user-item">
+              <a class="button button-navigation">Хочу сюда!</a>
             </li>
           </ul>
         </nav>
@@ -146,18 +146,18 @@
             </select>
 
             <ul class="view">
-              <li>
-                <button class="button-">
+              <li class="view-list">
+                <button class="view-button">
                   <span class="visually-hidden">Показать карточки</span>
                 </button>
               </li>
-              <li>
-                <button class="button-">
+              <li class="view-list">
+                <button class="view-button">
                   <span class="visually-hidden">Показать слайды</span>
                 </button>
               </li>
-              <li>
-                <button class="button-">
+              <li class="view-list">
+                <button class="view-button">
                   <span class="visually-hidden">Показать список</span>
                 </button>
               </li>
@@ -226,8 +226,8 @@
             </li>
           </ul>
 
-          <ol class="pagination">
-            <div class="pagination-wrapper">
+          <div class="pagination-wrapper">
+            <ol class="pagination">
               <li class="pagination-item">
                 <a class="pagination-link pagination-current">1</a>
               </li>
@@ -246,13 +246,14 @@
               <li class="pagination-item">
                 <a class="pagination-link" href="#">10</a>
               </li>
-            </div>
-          </ol>
+            </ol>
+            </>
         </section>
 
         <section class="subscribe-catalog">
-          <h2 class="title">Подпишитесь на рассылку</h2>
-          <p class="text">Только полезная информация и никакого спама, честное бойскаутское!</p>
+          <h2 class="title subscribe-title">Подпишитесь на рассылку</h2>
+          <p class="text subscribe-text">Только полезная информация и никакого спама, честное бойскаутское!
+          </p>
           <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
             <input class="subscribe-field" placeholder="Ваш e-mail" type="email" name="subscribe-email">
             <button class="button subscribe-button" type="submit">ПОДПИСАТЬСЯ</button>
