@@ -429,12 +429,14 @@ body {
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
+  padding-bottom: 32px;
 }
 
 .catalog-filter-item {
   font-size: 18px;
   line-height: 23px;
   font-weight: 400;
+  padding-bottom: 16px;
 }
 
 .filter-container {
@@ -468,16 +470,22 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
-  width: 150px;
+  min-width: 150px;
   margin-right: 70px;
+}
+
+.catalog-filter-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .catalog-filter-group-type {
   margin: 0;
   padding: 0;
   border: 0;
-  width: 150px;
-  margin-right: 140px;
+  min-width: 150px;
+  margin-right: auto;
 }
 
 .catalog-filter-grup-price {
@@ -485,7 +493,7 @@ body {
   padding: 0;
   border: 0;
   width: 288px;
-  margin-right: 70px;
+  margin-left: auto;
 }
 
 .conteol-input-min,
@@ -501,9 +509,11 @@ body {
 }
 
 .filter-button-wrapper {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   width: 191px;
+  margin-left: 70px;
+  padding-top: 56px;
 }
 
 .button-filter {
@@ -513,6 +523,8 @@ body {
 
 .button-filter-reset {
   background-color: transparent;
+  padding-top: 40px;
+  padding-bottom: 8px;
 }
 
 /* catalog - sorting */
