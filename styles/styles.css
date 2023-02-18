@@ -355,7 +355,7 @@ body {
 .subscribe-field {
   min-width: 452px;
   min-height: 52px;
-  border-radius: 4px;
+  border-radius: 4px 0 0 4px;
   border: 0;
   background-color: #F2F2F2;
 }
@@ -366,6 +366,7 @@ body {
   font-size: 20px;
   line-height: 36px;
   background-color: #82B3D3;
+  border-radius: 0 4px 4px 0;
 }
 
 /* footer */
