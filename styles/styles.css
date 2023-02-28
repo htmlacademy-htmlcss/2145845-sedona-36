@@ -202,10 +202,9 @@ body {
 
 .hero {
   background-color: #83B3D333;
-  background-image: url("../images/bg-hero.jpg");
-  background-size: 100% auto;
-  height: 485px;
-  background-repeat: no-repeat;
+  background: url("../images/divider.svg") bottom no-repeat,
+    url("../images/bg-hero.jpg") no-repeat;
+  height: 485px
 }
 
 .welcome-logo {
