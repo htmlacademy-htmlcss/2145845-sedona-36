@@ -300,6 +300,23 @@ body {
   margin: auto;
   width: 175px;
   margin-bottom: 62px;
+  position: relative;
+}
+
+.advantages-title::after {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.3);
+  left: 50%;
+  margin-left: -30px;
+  top: 86px;
+}
+
+.advantages-title-real-town::after,
+.advantages-title-devil-bridge::after {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .real-town,
