@@ -503,6 +503,36 @@ body {
 
 .footer-social-item {
   min-width: 47px;
+  position: relative;
+}
+
+.vk-link,
+.telegram-link,
+.youtube-link {
+  display: block;
+  min-width: 47px;
+  min-height: 40px;
+}
+
+.telegram-icon,
+.vk-icon,
+.youtube-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  color: #83B3D3;
+}
+
+.footer-social-item:hover svg,
+.footer-social-item:focus svg {
+  fill: #68A2CA;
+}
+
+.footer-social-item:active svg {
+  fill: rgba(104, 162, 202, 0.3);
 }
 
 .footer-contacts {
@@ -518,8 +548,32 @@ body {
   line-height: 40px;
 }
 
+.contacts-phone:hover,
+.contacts-phone:focus {
+  color: #756157;
+}
+
+.contacts-phone:active {
+  color: rgba(117, 97, 87, 0.3);
+}
+
 .footer-html-academy {
   width: 115px;
+}
+
+.logo-html-academy {
+  display: block;
+  margin-top: 5px;
+  fill: #000000;
+}
+
+.html-academy-link:hover svg,
+.html-academy-link:focus svg {
+  fill: #756157;
+}
+
+.html-academy-link:active svg {
+  fill: rgba(117, 97, 87, 0.3);
 }
 
 /* catalog - filter */
