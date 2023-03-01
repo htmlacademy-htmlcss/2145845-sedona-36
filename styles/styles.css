@@ -360,11 +360,37 @@ body {
   min-height: 400px;
   margin: 0;
   padding: 0;
+  position: relative;
+}
+
+.item-house::before {
+  position: absolute;
+  content: url("../images/house.svg");
+  top: 81px;
+  left: 50%;
+  margin-left: -33px;
+}
+
+.item-food::before {
+  position: absolute;
+  content: url("../images/food.svg");
+  top: 81px;
+  left: 50%;
+  margin-left: -33px;
+}
+
+.item-souvenir::before {
+  position: absolute;
+  content: url("../images/souvenir.svg");
+  top: 81px;
+  left: 50%;
+  margin-left: -33px;
 }
 
 .service-title {
   margin: auto;
   width: 230px;
+  margin-top: 183px;
   margin-bottom: 30px;
 }
 
