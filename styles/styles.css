@@ -868,6 +868,10 @@ body {
   grid-row: 2;
 }
 
+.hotel-card-link:hover {
+  opacity: 0.9;
+}
+
 .hotel-card-title {
   margin: 16px 0 16px;
   padding: 0;
@@ -911,11 +915,10 @@ body {
 }
 
 .stars {
-  margin: 0;
+  margin: auto 0;
   padding: 0;
   grid-column: 2;
   grid-row: 5;
-  background-color: #9582d3;
 }
 
 .hotel-card-rate {
