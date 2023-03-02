@@ -977,7 +977,9 @@ body {
   list-style-type: none;
 }
 
-.pagination-link {
+.pagination-link,
+.pagination-current,
+.pagination-hidden {
   box-sizing: border-box;
   display: block;
   text-decoration: none;
@@ -1005,4 +1007,14 @@ body {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
+  padding-top: 17px;
+}
+
+.pagination-link:hover,
+.pagination-link:focus {
+  background-color: #68A2CA;
+}
+
+.pagination-link:active {
+  color: rgba(255, 255, 255, 0.3);
 }
