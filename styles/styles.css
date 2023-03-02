@@ -769,6 +769,7 @@ body {
   background-image: url("../images/arrow-select.svg");
   background-repeat: no-repeat;
   background-position: right 20px center;
+  cursor: pointer;
 }
 
 .select-control:hover {
@@ -790,9 +791,49 @@ body {
 }
 
 .view-button {
-  border: chocolate solid 1px;
+  border: 2px solid #e5e5e5;
+  border-radius: 4px;
+  background-color: #FFFFFF;
   width: 48px;
   height: 48px;
+  cursor: pointer;
+}
+
+.button-sort-card {
+  background-image: url("../images/sort-card.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px 14px;
+}
+
+.button-sort-slide {
+  background-image: url("../images/sort-slide.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px 14px;
+}
+
+.button-sort-list {
+  background-image: url("../images/sort-list.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px 14px;
+}
+
+.view-button:hover {
+  border-color: #000000;
+  opacity: 0.5;
+}
+
+.view-button:focus {
+  border-color: #68A2CA;
+  outline: none;
+  opacity: 0.5;
+}
+
+.view-button:active {
+  border-color: #000000;
+  opacity: 0.4;
 }
 
 /* catalog - hotel-card */
