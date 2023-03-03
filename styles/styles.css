@@ -1014,6 +1014,7 @@ body {
 .pagination-current {
   color: #000000;
   background-color: #F2F2F2;
+  pointer-events: none;
 }
 
 .pagination-hidden {
@@ -1023,6 +1024,7 @@ body {
   font-size: 22px;
   line-height: 26px;
   padding-top: 17px;
+  pointer-events: none;
 }
 
 .pagination-link:hover,
