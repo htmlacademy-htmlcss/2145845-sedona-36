@@ -219,7 +219,7 @@ body {
   background-color: #83B3D333;
   background: url("../images/divider.svg") bottom no-repeat,
     url("../images/bg-hero.jpg") no-repeat;
-  height: 485px
+  min-height: 485px
 }
 
 .welcome-logo {
