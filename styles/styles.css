@@ -377,28 +377,23 @@ body {
   position: relative;
 }
 
-.item-house::before {
+.service-title::before {
   position: absolute;
-  content: url("../images/house.svg");
   top: 81px;
   left: 50%;
   margin-left: -33px;
+}
+
+.item-house::before {
+  content: url("../images/house.svg");
 }
 
 .item-food::before {
-  position: absolute;
   content: url("../images/food.svg");
-  top: 81px;
-  left: 50%;
-  margin-left: -33px;
 }
 
 .item-souvenir::before {
-  position: absolute;
   content: url("../images/souvenir.svg");
-  top: 81px;
-  left: 50%;
-  margin-left: -33px;
 }
 
 .service-title {
