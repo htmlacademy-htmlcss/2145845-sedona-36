@@ -838,7 +838,54 @@ body {
   opacity: 0.9;
 }
 
-.control-input-price {}
+.control-input-min::-webkit-outer-spin-button,
+.control-input-min::-webkit-inner-spin-button,
+.control-input-max::-webkit-outer-spin-button,
+.control-input-max::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+.range-scale {
+  position: relative;
+  height: 4px;
+  background-color: rgb(255, 255, 255, 0.3);
+}
+
+.range-bar {
+  position: absolute;
+  height: 4px;
+  background-color: #FFFFFF;
+}
+
+.range-toggle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 0;
+}
+
+.toggle-min {
+  top: -8px;
+  left: 0;
+}
+
+.toggle-max {
+  top: -8px;
+  right: 0;
+}
+
+.range-toggle:hover {
+  background-color: #d4e6f1;
+}
+
+.range-toggle:active,
+.range-toggle:focus {
+  outline: 3px solid #d4e6f1;
+}
 
 .filter-button-wrapper {
   margin: 0;
