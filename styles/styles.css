@@ -777,21 +777,68 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
-  width: 288px;
   margin-left: auto;
 }
 
-.conteol-input-min,
-.conteol-input-max {
-  min-width: 143px;
-  min-height: 48px;
-  border-radius: 4px;
+.range {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.control-input-min,
+.control-input-max {
+  box-sizing: border-box;
+  width: 143px;
   border: 0;
   background-color: #F2F2F2;
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
+  padding: 12px 40px 12px 20px;
 }
+
+.control-input-min {
+  margin-right: 2px;
+  border-radius: 4px 0 0 4px;
+}
+
+.control-input-max {
+  border-radius: 0 4px 4px 0;
+}
+
+.control-input-min-text,
+.control-input-max-text {
+  position: relative;
+}
+
+.range span {
+  position: absolute;
+  content: "";
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 24px;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 24px;
+  color: rgba(170, 170, 170);
+}
+
+.control-input-min:hover,
+.control-input-max:hover,
+.control-input-min:focus,
+.control-input-max:focus {
+  background-color: #d4e6f1;
+}
+
+.control-input-min:active,
+.control-input-max:active {
+  background-color: #a5d3f0;
+  opacity: 0.9;
+}
+
+.control-input-price {}
 
 .filter-button-wrapper {
   margin: 0;

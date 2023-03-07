@@ -128,11 +128,17 @@
 
                 <fieldset class="catalog-filter-grup-price">
                   <legend class="catalog-filter-title">Стоимость, ₽:</legend>
-                  от
-                  <input class="control-input-min" type="number" name="min-price" value="0">
-                  до
-                  <input class="control-input-max" type="number" name="max-price" value="9000">
-                  <input class="control-input" type="range" name="price-range">
+                  <div class="range">
+                    <label class="control-input-min-text">
+                      <input class="control-input-min" type="number" value="0">
+                      <span>от</span>
+                    </label>
+                    <label class="control-input-max-text">
+                      <input class="control-input-max" type="number" value="9000">
+                      <span>до</span>
+                    </label>
+                  </div>
+                  <input class="control-input-price" type="range" name="price-range">
                 </fieldset>
 
                 <div class="filter-button-wrapper">
