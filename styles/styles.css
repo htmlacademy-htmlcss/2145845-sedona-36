@@ -478,6 +478,26 @@ body {
   background-color: #F2F2F2;
 }
 
+.subscribe-field::placeholder {
+  padding: 14px 0 14px 20px;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.subscribe-field:hover {
+  background-color: #dde9f0;
+}
+
+.subscribe-field:focus,
+.subscribe-field:active {
+  background-color: #dae8f0;
+  outline: 1px solid #63abdc;
+  opacity: 0.9;
+}
+
 .subscribe-button {
   min-width: 232px;
   min-height: 52px;
