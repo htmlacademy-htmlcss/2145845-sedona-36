@@ -624,20 +624,6 @@ body {
   padding: 0;
 }
 
-.catalog-filter-title {
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 700;
-  padding-bottom: 32px;
-}
-
-.catalog-filter-item {
-  font-size: 18px;
-  line-height: 23px;
-  font-weight: 400;
-  padding-bottom: 16px;
-}
-
 .filter-container {
   padding: 0;
   margin: 35px 70px 70px;
@@ -709,6 +695,74 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+.catalog-filter-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  padding-bottom: 32px;
+}
+
+.catalog-filter-item {
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 400;
+  padding-bottom: 16px;
+}
+
+.control {
+  position: relative;
+  display: block;
+  padding-left: 36px;
+}
+
+.control-mark {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+}
+
+.control:hover .control-mark {
+  background-color: #d4e6f1;
+}
+
+.control-input:disabled + .control-mark {
+  background-color: #7c7979;
+}
+
+.control-input[type="checkbox"]:checked + .control-mark::before {
+  position: absolute;
+  left: 4px;
+  top: -2px;
+  content: url(" ../images/check-mark.svg");
+}
+
+.control-input[type="radio"]:checked + .control-mark::after {
+  position: absolute;
+  content: "";
+  top: 5px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  background-color: #3F5E72;
+  border-radius: 50%;
+}
+
+.control-input[type="radio"] + .control-mark {
+  border-radius: 50%;
+}
+
+.control-label:hover {
+  opacity: 0.8;
+}
+
+.control-label:active {
+  opacity: 0.6;
 }
 
 .catalog-filter-group-type {
