@@ -1327,8 +1327,8 @@ body {
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 16px;
-  right: 22px;
+  top: 14px;
+  right: 20px;
   border: none;
   background-image: url("../images/calendar.svg");
   background-repeat: no-repeat;
@@ -1417,11 +1417,11 @@ input[type='number'] {
 }
 
 .plus {
-  right: 10px;
+  right: 8px;
 }
 
 .minus {
-  left: 10px;
+  left: 11px;
 }
 
 .plus svg {
