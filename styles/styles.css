@@ -336,6 +336,7 @@ body {
 .real-town,
 .devil-bridge {
   display: block;
+  height: 100%;
 }
 
 .advantages-item-real-town,
@@ -471,15 +472,19 @@ body {
 }
 
 .subscribe-field {
+  box-sizing: border-box;
   min-width: 452px;
   min-height: 52px;
   border-radius: 4px 0 0 4px;
   border: 0;
   background-color: #F2F2F2;
+  padding: 14px 0 14px 20px;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .subscribe-field::placeholder {
-  padding: 14px 0 14px 20px;
   font-style: normal;
   font-size: 18px;
   line-height: 24px;
