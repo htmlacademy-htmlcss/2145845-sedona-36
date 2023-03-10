@@ -281,7 +281,7 @@ body {
 .advantages-main-text {
   width: 651px;
   margin: auto;
-  padding-bottom: 69px;
+  padding-bottom: 90px;
 }
 
 .bg-color-light-blue {
@@ -303,7 +303,7 @@ body {
 .advantages-item {
   display: flex;
   width: 400px;
-  min-height: 400px;
+  min-height: 385px;
 }
 
 .advantages-wrapper {
@@ -372,7 +372,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 400px;
-  min-height: 400px;
+  min-height: 385px;
   margin: 0;
   padding: 0;
   position: relative;
@@ -382,7 +382,7 @@ body {
   position: absolute;
   top: 81px;
   left: 50%;
-  margin-left: -33px;
+  margin-left: -35px;
 }
 
 .item-house::before {
@@ -478,10 +478,11 @@ body {
   border-radius: 4px 0 0 4px;
   border: 0;
   background-color: #F2F2F2;
-  padding: 14px 0 14px 20px;
+  padding: 14px 0 11px 20px;
   font-style: normal;
   font-size: 18px;
   line-height: 24px;
+  font-family: "PT Sans", sans-serif;
 }
 
 .subscribe-field::placeholder {
