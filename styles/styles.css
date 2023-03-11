@@ -631,8 +631,9 @@ body {
 }
 
 .filter-container {
+  box-sizing: border-box;
   padding: 0;
-  margin: 35px 70px 70px;
+  margin: 35px 70px 57px 70px;
   width: 1060px;
 }
 
@@ -694,7 +695,7 @@ body {
   padding: 0;
   border: 0;
   min-width: 150px;
-  margin-right: 70px;
+  margin-right: 66px;
 }
 
 .catalog-filter-list {
@@ -731,6 +732,11 @@ body {
   height: 20px;
   background-color: #FFFFFF;
   border-radius: 4px;
+}
+
+.control-input:focus + .control-mark {
+  opacity: 0.9;
+  outline: 3px solid #5795be;
 }
 
 .control:hover .control-mark {
@@ -788,7 +794,7 @@ body {
 
 .range {
   display: flex;
-  margin-bottom: 40px;
+  margin-bottom: 44px;
 }
 
 .control-input-min,
@@ -915,7 +921,7 @@ body {
 .button-filter-reset {
   background-color: transparent;
   min-width: 191px;
-  margin-top: 40px;
+  margin-top: 35px;
   padding-bottom: 8px;
   cursor: pointer;
 }
@@ -937,6 +943,10 @@ body {
   justify-content: space-between;
 }
 
+.title-sort {
+  align-self: center;
+}
+
 .select-control {
   min-width: 292px;
   font-family: inherit;
@@ -947,10 +957,10 @@ body {
   appearance: none;
   border: 2px solid #e5e5e5;
   border-radius: 4px;
-  padding: 12px 40px 12px 20px;
+  padding: 12px 40px 12px 18px;
   background-image: url("../images/arrow-select.svg");
   background-repeat: no-repeat;
-  background-position: right 20px center;
+  background-position: right 18px center;
   cursor: pointer;
 }
 
@@ -1055,7 +1065,7 @@ body {
 }
 
 .hotel-card-title {
-  margin: 16px 0 16px;
+  margin: 11px 0 16px;
   padding: 0;
   font-size: 24px;
   line-height: 28px;
@@ -1097,10 +1107,14 @@ body {
 }
 
 .stars {
-  margin: auto 0;
+  margin: 10px auto 0 0;
   padding: 0;
   grid-column: 2;
   grid-row: 5;
+}
+
+.star {
+  margin-right: 1px;
 }
 
 .hotel-card-rate {
@@ -1159,7 +1173,7 @@ body {
   padding: 0;
   margin: 0 auto;
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 .pagination {
