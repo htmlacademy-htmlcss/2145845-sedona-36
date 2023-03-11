@@ -315,10 +315,13 @@ body {
   margin: auto;
   width: 175px;
   margin-bottom: 62px;
+}
+
+.advantages-description {
   position: relative;
 }
 
-.advantages-title::after {
+.advantages-description::before {
   position: absolute;
   content: "";
   width: 60px;
@@ -326,10 +329,10 @@ body {
   background-color: rgba(0, 0, 0, 0.3);
   left: 50%;
   transform: translateX(-50%);
-  top: 86px;
+  top: -30px;
 }
 
-.white-text::after {
+.white-text::before {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
@@ -447,8 +450,8 @@ body {
 .subscribe-index {
   background-color: #82B3D3;
   background-image: url("../images/bg-subscribe.jpg");
-  background-size: 100% auto;
-  height: 415px;
+  background-size: cover;
+  min-height: 415px;
   background-repeat: no-repeat;
 }
 
@@ -505,8 +508,8 @@ body {
 }
 
 .subscribe-button {
-  min-width: 232px;
-  min-height: 52px;
+  max-width: 400px;
+  padding: 8px 50px;
   font-size: 20px;
   line-height: 36px;
   background-color: #82B3D3;
