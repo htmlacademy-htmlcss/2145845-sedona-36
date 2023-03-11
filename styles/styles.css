@@ -1051,6 +1051,7 @@ body {
   padding: 0;
 
   display: grid;
+  align-items: start;
   grid-template-columns: 20px auto auto 20px;
   grid-template-rows: 20px auto auto auto auto 20px;
 }
