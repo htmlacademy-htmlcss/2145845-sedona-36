@@ -170,7 +170,7 @@ body {
   list-style-type: none;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
+  min-width: 268px;
 }
 
 .navigation-user-link-search,
@@ -223,6 +223,7 @@ body {
   box-sizing: border-box;
   min-width: 160px;
   margin: 0;
+  margin-top: 14px;
   padding: 0;
   padding-top: 8px;
   margin-left: 20px;
@@ -334,6 +335,7 @@ body {
 .advantages-wrapper {
   margin: auto;
   width: 235px;
+  padding: 50px;
 }
 
 .advantages-title {
@@ -367,6 +369,7 @@ body {
 .devil-bridge {
   display: block;
   height: 100%;
+  object-fit: cover;
 }
 
 .advantages-item-real-town,
@@ -449,6 +452,7 @@ body {
   margin: auto;
   margin-top: 0;
   width: 230px;
+  padding-bottom: 50px;
 }
 
 /* index - search */
