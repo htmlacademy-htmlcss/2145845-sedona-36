@@ -622,6 +622,7 @@ body {
   padding: 0;
   list-style-type: none;
   min-height: 40px;
+  max-width: 200px;
 }
 
 .footer-social-item {
@@ -659,7 +660,7 @@ body {
 }
 
 .footer-contacts {
-  margin: 0 auto;
+  margin: auto;
 }
 
 .contacts-phone {
@@ -682,6 +683,7 @@ body {
 
 .footer-html-academy {
   width: 115px;
+  margin: auto 0;
 }
 
 .logo-html-academy {
@@ -901,6 +903,7 @@ body {
   width: 143px;
   border: 0;
   background-color: #F2F2F2;
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
