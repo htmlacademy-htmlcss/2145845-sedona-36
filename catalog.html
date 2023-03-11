@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <title>Каталог</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="images/favicon.png">
   </head>
 
   <body>
@@ -12,7 +14,7 @@
       <header class="header">
         <nav class="navigation">
           <a class="header-logo-link" href="index.html">
-            <img class="header-logo" src="images\logo-city-of-sedona.svg" width="140" height="70"
+            <img class="header-logo" src="images/logo-city-of-sedona.svg" width="140" height="70"
               alt="Логотип: Город Седона.">
           </a>
           <ul class="navigation-list">
@@ -43,14 +45,13 @@
               </a>
             </li>
             <li class="navigation-user-item">
-              <a class="button button-navigation" href="#">Хочу сюда!</a>
+              <a class="button button-navigation" href="#modal">Хочу сюда!</a>
             </li>
           </ul>
         </nav>
       </header>
 
       <main class="main-container main-catalog">
-        <h1 class="visually-hidden">Поиск гостиниц в Седоне</h1>
         <section class="filter">
           <div class="filter-container">
             <div>
@@ -69,7 +70,7 @@
             </div>
 
             <div>
-              <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+              <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="post">
                 <fieldset class="catalog-filter-group-infrastructure">
                   <legend class="catalog-filter-title">Инфраструктура:</legend>
                   <ul class="catalog-filter-list">
@@ -139,7 +140,7 @@
                     </label>
                   </div>
                   <div class="range-scale">
-                    <div class="range-bar" style="left: 0px; width: 226px">
+                    <div class="range-bar" style="left: 0; width: 226px">
                       <button type="button" class="range-toggle toggle-min">
                         <span class="visually-hidden">Изменить минимальную цену.</span>
                       </button>
@@ -156,11 +157,12 @@
                 </div>
               </form>
             </div>
+          </div>
         </section>
 
         <section class="catalog-hotel">
           <div class="sorting-wrapper">
-            <h2 class="title">НАЙДЕНО ГОСТИНИЦ: 38</h2>
+            <h2 class="title title-sort">Найдено гостиниц: 38</h2>
             <select class="select-control" aria-label="Сортировка">
               <option value="cheap">Сначала дешевые</option>
               <option value="popular">Сначала популярные</option>
@@ -199,10 +201,10 @@
               <button class="button button-catalog-to-favorites">B избранное</button>
               <p class="stars star-4">
                 <span class="visually-hidden">4 звезды</span>
-                <img src="images/star.svg" width="18" height="17" alt="">
-                <img src="images/star.svg" width="18" height="17" alt="">
-                <img src="images/star.svg" width="18" height="17" alt="">
-                <img src="images/star.svg" width="18" height="17" alt="">
+                <img class="star" src="images/star.svg" width="18" height="17" alt="">
+                <img class="star" src="images/star.svg" width="18" height="17" alt="">
+                <img class="star" src="images/star.svg" width="18" height="17" alt="">
+                <img class="star" src="images/star.svg" width="18" height="17" alt="">
               </p>
               <p class=" hotel-card-rate">Рейтинг: 8,5
               </p>
@@ -219,10 +221,10 @@
               <button class="button button-catalog-in-favorites">B избранном</button>
               <p class="stars star-5">
                 <span class="visually-hidden">5 звёзд</span>
-                <img src="images/star.svg" width="18" height="17" alt="">
-                <img src="images/star.svg" width="18" height="17" alt="">
-                <img src="images/star.svg" width="18" height="17" alt="">
-                <img src="images/star.svg" width="18" height="17" alt="">
+                <img class="star" src="images/star.svg" width="18" height="17" alt="">
+                <img class="star" src="images/star.svg" width="18" height="17" alt="">
+                <img class="star" src="images/star.svg" width="18" height="17" alt="">
+                <img class="star" src="images/star.svg" width="18" height="17" alt="">
               </p>
               <p class="hotel-card-rate">Рейтинг: 9,2</p>
             </li>
@@ -237,9 +239,9 @@
               <button class="button button-catalog-to-favorites">B избранное</button>
               <p class="stars star-3">
                 <span class="visually-hidden">3 звезды</span>
-                <img src="images/star.svg" width="18" height="17" alt="">
-                <img src="images/star.svg" width="18" height="17" alt="">
-                <img src="images/star.svg" width="18" height="17" alt="">
+                <img class="star" src="images/star.svg" width="18" height="17" alt="">
+                <img class="star" src="images/star.svg" width="18" height="17" alt="">
+                <img class="star" src="images/star.svg" width="18" height="17" alt="">
               </p>
               <p class="hotel-card-rate">Рейтинг: 6,9</p>
             </li>
@@ -254,8 +256,8 @@
               <button class="button button-catalog-to-favorites">B избранное</button>
               <p class="stars star-2">
                 <span class="visually-hidden">2 звезды</span>
-                <img src="images/star.svg" width="18" height="17" alt="">
-                <img src="images/star.svg" width="18" height="17" alt="">
+                <img class="star" src="images/star.svg" width="18" height="17" alt="">
+                <img class="star" src="images/star.svg" width="18" height="17" alt="">
               </p>
               <p class="hotel-card-rate">Рейтинг: 5,0</p>
             </li>
@@ -282,7 +284,7 @@
                 <a class="pagination-link" href="#">10</a>
               </li>
             </ol>
-            </>
+          </div>
         </section>
 
         <section class="subscribe-catalog">
@@ -290,7 +292,8 @@
           <p class="text subscribe-text">Только полезная информация и никакого спама, честное бойскаутское!
           </p>
           <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-            <input class="subscribe-field" placeholder="Ваш e-mail" type="email" name="subscribe-email">
+            <label class="visually-hidden" for="sub-hotel">Поле ввода e-mail</label>
+            <input class="subscribe-field" placeholder="Ваш e-mail" type="email" name="subscribe-email" id="sub-hotel">
             <button class="button subscribe-button" type="submit">Подписаться</button>
           </form>
         </section>
@@ -355,6 +358,89 @@
           </div>
         </div>
       </footer>
+      <div class="open-close-modal" id="modal">
+        <div class="modal-container">
+          <div class="modal">
+            <a class="modal-close-button" href="#">
+              <span class="visually-hidden">Закрыть</span>
+            </a>
+            <section class="modal-content">
+              <h2 class="modal-title">Поиск Гостиницы в Седоне</h2>
+              <form class="auth-form" action="https://echo.htmlacademy.ru/" method="post">
+                <div class="field-group">
+                  <label class="data-field" for="data-in">Дата Заезда:</label>
+                  <div class="field-data-wrapper">
+                    <input class="field-calendar" type="text" id="data-in" name="data-in" value="27 апреля 2020"
+                      placeholder="Укажите дату">
+                    <button class="button-date" type="button">
+                      <span class="visually-hidden">Календарик</span>
+                    </button>
+                    <span class="text-form-error">Мы не можем отправить вас в прошлое.</span>
+                  </div>
+                </div>
+                <div class="field-group">
+                  <label class="data-field" for="data-out">Дата Выезда:</label>
+                  <div class="field-data-wrapper">
+                    <input class="field-calendar" type="text" id="data-out" name="data-out" value="1 сентября 2023"
+                      placeholder="Укажите дату">
+                    <button class="button-date" type="button">
+                      <span class="visually-hidden">Календарик</span>
+                    </button>
+                    <span class="text-form-warning">На эти даты есть свободные номера. Пока есть.</span>
+                  </div>
+                </div>
+                <div class="field-group-wrapper">
+                  <div class="field-group">
+                    <label class="data-field" for="adults">Взрослые:</label>
+                    <div class="input-plus-minus">
+                      <button class="minus" type="button"><svg width="14" height="2" viewBox="0 0 14 2"
+                          fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0 0L0 2L14 2V0L0 0Z" />
+                        </svg>
+                      </button>
+                      <input class="input-plus-minus-number" type="number" id="adults" name="adults" value="2">
+                      <button class="plus" type="button"><svg width="14" height="14" viewBox="0 0 14 14"
+                          fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M14 6H8V0H6V6H0V8H6V14H8V8H14V6Z" />
+                        </svg></button>
+                    </div>
+                  </div>
+                  <div class="field-group">
+                    <div class="form-label">
+                      <label class="data-field tooltip-area" for="children">Дети:</label>
+                      <div class="tooltip">
+                        <button class="tooltip-toggle" type="button">
+                          <svg class="tooltip-icon" width="3" height="12" viewBox="0 0 3 12" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M0.393066 0H2.39307V2H0.393066V0ZM2.39307 12H0.393066V3H2.39307V12Z" />
+                          </svg>
+                        </button>
+                        <span class="tooltip-text">Укажите количество детей, которые будут с вами, возраст которых от 6
+                          до
+                          18 лет. Дети до 6 лет размещаются бесплатно.</span>
+                      </div>
+                    </div>
+                    <div class="input-plus-minus">
+                      <button class="minus" type="button"><svg width="14" height="2" viewBox="0 0 14 2"
+                          fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0 0L0 2L14 2V0L0 0Z" />
+                        </svg>
+                      </button>
+                      <input class="input-plus-minus-number" type="number" id="children" name="children" value="2">
+                      <button class="plus" type="button"><svg width="14" height="14" viewBox="0 0 14 14"
+                          fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M14 6H8V0H6V6H0V8H6V14H8V8H14V6Z" />
+                        </svg></button>
+                    </div>
+                  </div>
+                </div>
+                <button class="auth-form-button" type="submit">Найти</button>
+              </form>
+            </section>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 
